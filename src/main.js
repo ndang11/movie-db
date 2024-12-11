@@ -2,11 +2,9 @@ import "./style.css";
 
 
 document.querySelector("#app").innerHTML = `
-   <div class="header">
+    <div class="header">
       <div class="navbar">
-      <div class="icon">
-      <h2>SaintStream</h2>
-        </div>
+       <h2>SaintStream</h2>
         <div class="menu">
           <ul>
             <li><a href="#">Home</a></li>
@@ -18,33 +16,33 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div class="search">
           <div class="left">
-          <span></span>
+          <span><img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/search--v1.png" alt="search--v1"/></span>
           </div>
           <div class="notify">
-            <span></span>
+            <span><img width="25" height="25" src="https://img.icons8.com/glyph-neue/64/FFFFFF/appointment-reminders.png" alt="appointment-reminders"/></span>
           </div>
           <div class="profile">
             <img src="/images/profile pic1.jpg" alt="profile"/>
           </div>
-          <span><img width="20" height="20" src="https://img.icons8.com/fluency-systems-filled/50/expand-arrow.png" alt="expand-arrow"/></span>
+          <span><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/chevron-down.png" alt="chevron-down"/></span>
         </div>
       </div>
+    </div>
       <div class="main">
         <button id="btn1">Season3</button>
-        <h3></h3>
+        <h2>The Mandolorian</h2>
         <small id="time">2h40m.2022.Fantasy.Actions</small>
         <p id="paragraph-one">The third season of the American television series <br>The Mandalorian stars
-           Pedro Pascal as the title characher, a bounty hunter traveling to
-            Mandaloore to redeem his past transgressions with his adopted son Grogu and being aided
+           Pedro Pascal as the title characher, a bounty hunter <br> traveling to
+            Mandaloore to redeem his past transgressions with his adopted son <br> Grogu and being aided
              on their journey by the fellow Mandolorian Bo-Katan Kryze.
             </p>
         <button id="btn2"><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/circled-play.png" alt="circled-play"/>Play Now</button>
         <button id="btn3"><img width="20" height="20" src="https://img.icons8.com/material-outlined/24/circled-play.png" alt="circled-play"/>Watch Trailer</button>
-        <button id="btn4"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50"style="fill:#FFFFFF;"><path d="M 37 48 C 36.824219 48 36.652344 47.953125 36.496094 47.863281 L 25 41.15625 L 13.503906 47.863281 C 13.195313 48.042969 12.8125 48.046875 12.503906 47.867188 C 12.191406 47.6875 12 47.359375 12 47  L 12 3 C 12 2.449219 12.449219 2 13 2 L 37 2 C 37.554688 2 38 2.449219 38 3 L 38 47 C 38 47.359375 37.808594 47.6875 37.496094 47.867188 C 37.34375 47.957031 37.171875 48 37 48 Z"></path></svg>Add Watchlist</button>
+        <button id="btn4"><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bookmark-ribbon.png" alt="bookmark-ribbon"/>Add Watchlist</button>
       </div>
-    </div>
     <div class="logo">
-      <img src="/images/disney icon.jpg" alt="logo1">
+       <img src="/images/disney icon.jpg" alt="logo1">
       <img src="/images/netflix.jpg" alt="logo2">
       <img src="/images/HBOmax.jpg" alt="logo3">
       <img src="/images/PIXAR.jpg" alt="logo4">

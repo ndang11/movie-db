@@ -27,26 +27,25 @@ a:hover {
   color: #535bf2;
 }
 
-header {
+.header {
   width: 100%;
   padding: 10px;
 }
 
 .navbar {
   display: flex;
-  width: 100%;
-  margin-right: 50px;
+  margin: auto;
+  justify-content: space-between;
 }
 
 .menu {
-  display: none;
+  display: flex;
 }
 
 .search {
   display: flex;
-  float: right;
-  margin-left: 50px;
-  width: 30px;
+  gap: 10px;
+  cursor: pointer;
 }
 
 .search span {
@@ -60,12 +59,13 @@ ul li {
   display: flex;
 }
 
-.icon {
-  color: #535bf2;
-}
-
 .main {
   justify-items: left;
+}
+
+.main small {
+  color: white;
+  opacity: 0.5;
 }
 
 #btn1 {
@@ -92,6 +92,12 @@ ul li {
   color: white;
   background-color: black;
   border: 1px solid white;
+}
+
+#btn1,
+#btn2
+#btn4 {
+  justify-content: space-between;
 }
 
 #movies {
