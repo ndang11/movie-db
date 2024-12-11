@@ -30,16 +30,22 @@ a:hover {
 .header {
   width: 100%;
   padding: 10px;
+  margin-bottom: 60px;
 }
 
 .navbar {
   display: flex;
   margin: auto;
   justify-content: space-between;
+  h2 {
+    color: orange;
+    font-weight: bold;
+    font-size: 35px;
+  }
 }
 
 .menu {
-  display: flex;
+  color: white; 
 }
 
 .search {
@@ -52,11 +58,30 @@ a:hover {
   border: 1px solid black;
 }
 
+.profile img {
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+}
+
 ul li {
   list-style: none;
-  margin-left: 70px;
-  margin-top: 20px;
-  display: flex;
+}
+
+ul li a{
+  color: white;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: orange;
 }
 
 .main {
@@ -92,12 +117,6 @@ ul li {
   color: white;
   background-color: black;
   border: 1px solid white;
-}
-
-#btn1,
-#btn2
-#btn4 {
-  justify-content: space-between;
 }
 
 #movies {
@@ -143,15 +162,24 @@ h1 {
   text-align: center;
 }
 
+.brand-logo {
+ height: 100px;
+ background-blend-mode: multiply;
+}
+
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #f7df1eaa);
 }

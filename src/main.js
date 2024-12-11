@@ -16,10 +16,10 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div class="search">
           <div class="left">
-          <span><img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/search--v1.png" alt="search--v1"/></span>
+          <span><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/search--v1.png" alt="search--v1"/></span>
           </div>
           <div class="notify">
-            <span><img width="25" height="25" src="https://img.icons8.com/glyph-neue/64/FFFFFF/appointment-reminders.png" alt="appointment-reminders"/></span>
+            <span><img width="30" height="30" src="https://img.icons8.com/glyph-neue/64/FFFFFF/appointment-reminders.png" alt="appointment-reminders"/></span>
           </div>
           <div class="profile">
             <img src="/images/profile pic1.jpg" alt="profile"/>
@@ -42,13 +42,13 @@ document.querySelector("#app").innerHTML = `
         <button id="btn4"><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bookmark-ribbon.png" alt="bookmark-ribbon"/>Add Watchlist</button>
       </div>
     <div class="logo">
-       <img src="/images/disney icon.jpg" alt="logo1">
-      <img src="/images/netflix.jpg" alt="logo2">
-      <img src="/images/HBOmax.jpg" alt="logo3">
-      <img src="/images/PIXAR.jpg" alt="logo4">
-      <img src="/images/MARVEL.jpg" alt="logo5">
-      <img src="/images/STARWARS.jpg" alt="logo6">
-      <img src="/images/national geography.jpg" alt="logo7">
+      <img class="brand-logo" src="/images/disney icon.jpg" alt="logo1"/>
+      <img class="brand-logo" src="/images/netflix.jpg" alt="logo2"/>
+      <img class="brand-logo" src="/images/HBOmax.jpg" alt="logo3"/>
+      <img class="brand-logo" src="/images/PIXAR.jpg" alt="logo4"/>
+      <img class="brand-logo" src="/images/MARVEL.jpg" alt="logo5"/>
+      <img class="brand-logo" src="/images/STARWARS.jpg" alt="logo6"/>
+      <img class="brand-logo" src="/images/national geography.jpg" alt="logo7"/>
     </div>
     <section>
       <div class="sec1" id="movies">
