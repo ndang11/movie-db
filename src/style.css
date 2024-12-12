@@ -129,6 +129,7 @@ ul li a:hover{
   img {
     height: 400px;
     width: 300px;
+    border-radius: 10px;
   }
 }
 
@@ -163,8 +164,7 @@ h1 {
 }
 
 .brand-logo {
- height: 100px;
- background-blend-mode: multiply;
+ height: 90px;
 }
 
 .logo {

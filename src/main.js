@@ -225,9 +225,10 @@ document.querySelector("#app").innerHTML = `
             <li><a href="#">Release</a></li>
           </ul> 
           <div class="media-logo">
-            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FAB005/instagram-new--v1.png" alt="instagram-new--v1"/>
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,300,150" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M41,4h-32c-2.76,0 -5,2.24 -5,5v32c0,2.76 2.24,5 5,5h32c2.76,0 5,-2.24 5,-5v-32c0,-2.76 -2.24,-5 -5,-5zM37,19h-2c-2.14,0 -3,0.5 -3,2v3h5l-1,5h-4v15h-5v-15h-4v-5h4v-3c0,-4 2,-7 6,-7c2.9,0 4,1 4,1z"></path></g></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 32 32"style="fill:#1A1A1A;"><path d="M 28 8.558594 C 27.117188 8.949219 26.167969 9.214844 25.171875 9.332031 C 26.1875 8.722656 26.96875"></path></svg>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new.png" alt="instagram-new"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook--v1.png" alt="facebook--v1"/>
+            <img width="50" height="50" src="https://img.icons8.com/external-basicons-solid-edtgraphics/50/FFFFFF/external-Tweet-chat-bubbles-basicons-solid-edtgraphics.png" alt="external-Tweet-chat-bubbles-basicons-solid-edtgraphics"/>
+            <img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/FFFFFF/google-logo.png" alt="google-logo"/>
           </div>       
         </div>
       </div>
