@@ -203,9 +203,38 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
+.plateform {
+  text-align: left;
+  h1 {
+    color: white;
+    font-size: 30px;
+  }
+}
+.plateform small {
+  color: white;
+  word-spacing: 2.5px;
+  color: orange;
+}
+
+.media {
+  flex-wrap: wrap;
+  
+}
+
+.media-logo {
+  margin-bottom: 20px;
+}
+
+.clossing {
+  display: flex;
+  justify-content: space-between;
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

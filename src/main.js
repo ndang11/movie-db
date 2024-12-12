@@ -214,7 +214,7 @@ document.querySelector("#app").innerHTML = `
     <footer>
       <div class="clossing">
         <div class="plateform">
-          <h1>Our platform is trusted by millions & features best updated movies all around the world.</h1>
+          <h1>Our platform is trusted<br>by millions & features<br>best updated movies<br>all around the world.</h1>
           <small>Privacy policy  Term of service  Language</small>
         </div>
         <div class="media">
