@@ -1,6 +1,5 @@
 import "./style.css";
 
-
 document.querySelector("#app").innerHTML = `
     <div class="header">
       <div class="navbar">
@@ -37,10 +36,15 @@ document.querySelector("#app").innerHTML = `
             Mandaloore to redeem his past transgressions with his adopted son <br> Grogu and being aided
              on their journey by the fellow Mandolorian Bo-Katan Kryze.
             </p>
+         <br><br>
+      <div class="button">  
         <button id="btn2"><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/circled-play.png" alt="circled-play"/>Play Now</button>
         <button id="btn3"><img width="20" height="20" src="https://img.icons8.com/material-outlined/24/circled-play.png" alt="circled-play"/>Watch Trailer</button>
         <button id="btn4"><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/bookmark-ribbon.png" alt="bookmark-ribbon"/>Add Watchlist</button>
+      </div>  
       </div>
+    </div>
+     <br><br>
     <div class="logo">
       <img class="brand-logo" src="/images/disney icon.jpg" alt="logo1"/>
       <img class="brand-logo" src="/images/netflix.jpg" alt="logo2"/>
@@ -54,41 +58,69 @@ document.querySelector("#app").innerHTML = `
       <div class="sec1" id="movies">
         
       </div>
-      <div class="popular">
-      <h3></h3>
-        <div class="week">
+      </section>
+      <section>
+    <div class="pop swiper">
+      <h3>Popular of the week</h3>
+      <hr><hr>
+      <div class="popular swiper-wrapper">
+        <div class="week swiper-slide">
           <h1>1</h1>
-          <img src="" alt="pic1"/>
+          <img  src="/images/pic11.jpg" alt="pic11"/>
+          <div class="sub-one">
           <button id="btn5">PG-13</button>
           <h4></h4>
-          <p><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/movie--v1.png" alt="movie--v1"/>Horror.Thriller</p>
+          <p><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/movie--v1.png" alt="movie--v1"/>Horror.Thriller</p>
           <small><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/FAB005/star--v1.png" alt="star--v1"/>4.5 | Movie</small>
+          </div>
         </div>
-        <div class="week2">
+        <div class="week2 swiper-slide">
           <h1>2</h1>
-          <img src="" alt="pic2"/>
+          <img  src="/images/pic22.jpg" alt="pic2"/>
+          <div class="sub-two">
           <button id="btn6">PG-13</button>
           <h4>GOTG 3</h4>
-          <p><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/movie--v1.png" alt="movie--v1"/>| Superhero.Action</p>
+          <p><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/movie--v1.png" alt="movie--v1"/>| Superhero.Action</p>
           <small><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/FAB005/star--v1.png" alt="star--v1"/>4.9 | Movie</small>
+          </div>
         </div>
-        <div class="week3">
+        <div class="week3  swiper-slide ">
           <h1>3</h1>
-          <img src="" alt="pic3"/>
+          <imgsrc="/images/pic33.jpg" alt="pic33"/>
+          <div class="sub-three">
           <button id="btn7">PG-13</button>
           <h4>The Flash</h4>
-          <p><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/movie--v1.png" alt="movie--v1"/>| Comedy.Action</p>
+          <p><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/movie--v1.png" alt="movie--v1"/>| Comedy.Action</p>
           <small><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/FAB005/star--v1.png" alt="star--v1"/>3.7 | Movie</small>
+          </div>
         </div>
-         <div class="week4">
+        <div class="week4 swiper-slide">
           <h1>4</h1>
-          <img src="" alt="pic2"/>
+          <img  src="/images/pic44.jpg" alt="pic44"/>
+          <div class="sub-four">
           <button id="btn11">PG-13</button>
           <h4>The Main</h4>
-          <p><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/movie--v1.png" alt="movie--v1"/>| Comedy.Action</p>
+          <p><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/movie--v1.png" alt="movie--v1"/>| Comedy.Action</p>
           <small><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/FAB005/star--v1.png" alt="star--v1"/>4.4 | Movie</small>
+          </div>
         </div>
+         <div class="week5 swiper-slide ">
+          <h1>5</h1>
+           <img  src="/images/pic55.jpg" alt="pic55"/>
+          <div class="sub-five">
+           <button id="btn11">PG-13</button>
+           <h4>The Main</h4>
+           <p><img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/movie--v1.png" alt="movie--v1"/>| Comedy.Action</p>
+           <small><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/FAB005/star--v1.png" alt="star--v1"/>4.4 | Movie</small>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+       <div class="swiper-button-next"></div>
+
+       <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
       </div>
+    </div>
     </section>
     <section>
       <div class="release">
@@ -215,7 +247,8 @@ document.querySelector("#app").innerHTML = `
       <div class="clossing">
         <div class="plateform">
           <h1>Our platform is trusted<br>by millions & features<br>best updated movies<br>all around the world.</h1>
-          <small>Privacy policy  Term of service  Language</small>
+          <br><br>
+          <small>Privacy policy| Term of service| Language</small>
         </div>
         <div class="media">
           <ul>
@@ -224,18 +257,50 @@ document.querySelector("#app").innerHTML = `
             <li><a href="#">Influence</a></li>
             <li><a href="#">Release</a></li>
           </ul> 
+          <br><br>
           <div class="media-logo">
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new.png" alt="instagram-new"/>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook--v1.png" alt="facebook--v1"/>
             <img width="50" height="50" src="https://img.icons8.com/external-basicons-solid-edtgraphics/50/FFFFFF/external-Tweet-chat-bubbles-basicons-solid-edtgraphics.png" alt="external-Tweet-chat-bubbles-basicons-solid-edtgraphics"/>
             <img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/FFFFFF/google-logo.png" alt="google-logo"/>
-          </div>       
+          </div> 
+          <small>2023</small>      
         </div>
       </div>
     </footer>
+    
 `;
 
-const movies = document.getElementById("movies");
+import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+    
+  const swiper = new Swiper('.pop', {
+    slidePreView: 4,
+    spaceBetween: 30,
+    centeredSlides: true,
+     autoplay: { 
+       delay: 2500,
+     disableOnInteraction: false,
+     },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+})
+
+const movies = document.querySelector("#movies");
 
 const options = {
   method: "GET",
@@ -251,15 +316,22 @@ fetch(
   options
 )
   .then((res) => res.json())
-  .then(({ results }) => {
-    for (let index = 0; index < results.length; index++) {
-      movies.innerHTML += `
-        <div>
-          <h1>${results[index].original_title}</h1>
-          <img src="https://image.tmdb.org/t/p/w500${results[index].poster_path}" alt="${results[index].original_title}" />
-        </div>
-      `;
+  .then((data) => {
+    console.log(data);
+    const results = data.results;
+    if (Array.isArray(results)) {
+      for (let index = 0; index < results.length; index++) {
+        movies.innerHTML += `
+          <div>
+            <h1>${results[index].original_title}</h1>
+            <img src="https://image.tmdb.org/t/p/w500${results[index].poster_path}" alt="${results[index].original_title}" />
+          </div>
+        `;
+      }
+    } else {
+      console.error('Results is not an array:', results);
     }
   })
   .catch((err) => console.error(err));
+
 
