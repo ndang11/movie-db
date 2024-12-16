@@ -30,7 +30,7 @@ a:hover {
 .header {
   width: 100%;
   padding: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 5px;
 }
 
 .navbar {
@@ -85,7 +85,22 @@ ul li a:hover {
 }
 
 .main {
+  background-image: url(/images/heading\ pic\ 2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.main1 {
   justify-items: left;
+  position: absolute;
+  bottom: 30px;
+  font-size: 18px;
+  h2 {
+    color: orange;
+  }
+
 }
 
 .main small {
@@ -94,8 +109,8 @@ ul li a:hover {
 }
 
 .swiper {
-  background-color: rgb(186, 189, 189);
-  color: #000;
+  background-color: black;
+  color: white;
 }
 
 #btn1 {
@@ -174,8 +189,12 @@ ul li a:hover {
   border-radius: 10px;
 }
 
-#btn5 {
-  
+#btn8 {
+  background-color: orange; 
+}
+
+#btn9:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
 }
 
 .sub-one {
@@ -209,6 +228,25 @@ ul li a:hover {
 
 #movies img:hover {
   color: #535bf2;
+}
+
+.galaxy {
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 60px;
+  margin-left: 10px;
+}
+
+.galary-sub {
+  flex-wrap: wrap;
+  color: white;
+  text-align: left;
+  margin-top: 30px;
+  background-image: url(../images/guardians.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
 }
 
 body {
@@ -294,8 +332,14 @@ button:hover {
   flex-wrap: wrap;
 }
 
+.media small {
+  color: white;
+  margin-bottom: -20px;
+}
+
 .media-logo {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  justify-content: space-between;
 }
 
 .clossing {
