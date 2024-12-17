@@ -97,6 +97,7 @@ ul li a:hover {
   position: absolute;
   bottom: 30px;
   font-size: 18px;
+  margin-left: 10px;
   h2 {
     color: orange;
   }
@@ -190,7 +191,7 @@ ul li a:hover {
 }
 
 #btn8 {
-  background-color: orange; 
+  background-color: green; 
 }
 
 #btn9:hover {
@@ -233,7 +234,7 @@ ul li a:hover {
 .galaxy {
   flex-wrap: wrap;
   position: absolute;
-  bottom: 60px;
+  bottom: 40px;
   margin-left: 10px;
 }
 
@@ -245,8 +246,24 @@ ul li a:hover {
   background-image: url(../images/guardians.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 80vh;
   position: relative;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+
 }
 
 body {

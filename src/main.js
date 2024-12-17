@@ -10,7 +10,7 @@ document.querySelector("#app").innerHTML = `
             <li><a href="#">Discover</a></li>
             <li><a href="#">Movie Release</a></li>
             <li><a href="#">Forum</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="./detail.html">About</a></li>
           </ul>
         </div>
         <div class="search">
@@ -128,11 +128,31 @@ document.querySelector("#app").innerHTML = `
       <div class="galary-sub">
         <div class="galaxy">
           <h3>Explore by genre</h3>
-          <h1>Guardian of The Galaxy; Volume 3</h1>
+          <h1>Guardian of The Galaxy;<br>Volume 3</h1>
           <p><img width="24" height="24" src="https://img.icons8.com/material-rounded/24/FAB005/star--v1.png" alt="star--v1"/>4.6 | 2h40m.2022.Superhero.Actoin</p>
           <br>
           <button id="btn8"><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/play-button-circled--v1.png" alt="play-button-circled--v1"/>Play Now</button>
           <button id="btn9"><img width="24" height="24" src="https://img.icons8.com/ios-glyphs/30/000000/bookmark-ribbon.png" alt="bookmark-ribbon"/>Add Watchlist</button>
+          <br>
+           <img width="40" height="40" src="https://img.icons8.com/sf-black/64/FFFFFF/back.png" alt="back"/>
+           <img width="40" height="40" src="https://img.icons8.com/sf-black-filled/64/FFFFFF/forward.png" alt="forward"/>
+         <div class="container">
+          <div class="container1">
+            <h3>jhhh</h3>
+          </div>
+          <div class="container2">
+            <h3>hhhh</h3>
+          </div>
+          <div class="container3">
+            <h3>hhh</h3>
+          </div>
+          <div class="container4">
+            <h3>jjj</h3>
+          </div>
+          <div class="container5">
+            <h3>hhh</h3>
+          </div>
+        </div>
         </div>
       </div>
     </section>
