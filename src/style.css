@@ -124,6 +124,13 @@ ul li a:hover {
   font-weight: bold;
 }
 
+#container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
 #paragraph-one {
   text-align: left;
   color: #ffffff;
@@ -278,6 +285,39 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.button1 {
+  display: flex;
+  gap: 1rem;
+}
+
+.button22 {
+  
+}
+
+.top-cast {
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.cast-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cast1,
+.cast2,
+.cast3,
+.cast4,
+.cast5,
+.cast6,
+.cast7 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #app {
