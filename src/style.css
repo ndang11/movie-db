@@ -296,11 +296,22 @@ h1 {
   
 }
 
+.story-line {
+  color: white;
+  text-align: left;
+}
+
 .top-cast {
   margin-top: 20px;
   color: white;
   text-align: left;
   margin-bottom: 30px;
+}
+
+.top-cast img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 
 .cast-list {
@@ -318,6 +329,20 @@ h1 {
 .cast7 {
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
+}
+
+.sec-1 {
+  display: flex;
+  justify-content: space-between;
+  h3 {
+    color: white;
+  }
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
 }
 
 #app {
