@@ -340,6 +340,10 @@ h1 {
   }
 }
 
+.story-line span{
+  color: green;
+}
+
 .head {
   display: flex;
   justify-content: space-between;

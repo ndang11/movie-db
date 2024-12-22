@@ -58,7 +58,7 @@ document.querySelector("#app").innerHTML = `
     </div>
     <section>
       <div class="sec1" id="movies">
-       <span><img width="20" height="20" src="https://img.icons8.com/material-rounded/24/FAB005/star--v1.png" alt="star--v1"/>4.6| Action.Movie</span>  
+        
       </div>
       </section>
       <>
@@ -247,5 +247,5 @@ fetch(
     }
   })
   .catch((err) => console.error(err));
-
+  
 
