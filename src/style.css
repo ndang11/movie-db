@@ -292,10 +292,6 @@ h1 {
   gap: 1rem;
 }
 
-.button22 {
-  
-}
-
 .story-line {
   color: white;
   text-align: left;
@@ -346,7 +342,11 @@ h1 {
 
 .head {
   display: flex;
-  justify-content: space-between;
+}
+
+# button22 {
+  justify-content: right;
+  
 }
 
 #app {
